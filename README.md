@@ -1,3 +1,3 @@
-# Webpack
+# Landing Pagee
 
-Default bundle for building project with tailwind/react
+Landing for practice typesscript/tailwindcss/react 
