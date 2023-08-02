@@ -5,10 +5,24 @@
 @layer base {
 }
 @layer components {
+	.input {
+		@apply px-6 py-3 rounded-full border-[3px] bg-transparent outline-none text-white font-kanit text-base placeholder:text-inherit focus:border-orange focus:duration-200 focus:placeholder:text-transparent;
+	}
+	.btn {
+		@apply px-10 py-3 bg-orange hover:bg-orange-dark hover:duration-200 border-[3px] rounded-full border-white text-white font-kanit text-base uppercase;
+	}
 }
 @layer utilities {
 	@font-face {
-		font-family: "";
-		src: url("#");
+		font-family: 'ABeeZee';
+		src: url('./fonts/ABeeZee/ABeeZee-Regular.ttf');
+	}
+	@font-face {
+		font-family: 'Kanit';
+		src: url('./fonts/Kanit/Kanit-Regular.ttf');
+	}
+	@font-face {
+		font-family: 'Pridi';
+		src: url('./fonts/Pridi/Pridi-Regular.ttf');
 	}
 }
